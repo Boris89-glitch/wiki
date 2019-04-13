@@ -1,0 +1,50 @@
+.box{
+  background-color: rgb(21, 120, 50);
+  width:900px;
+  margin: 0 auto;
+  color: rgb(120, 57, 57);
+  font-family: "Bookman old style";
+  text-align: center;
+  padding: 20px;
+  border-radius:41px;
+  animation: slide-down 2s;
+}
+#random{
+  display:inline-block;
+  margin-top: 15px;
+  padding:10px;
+  text-decoration:none;
+  background-color:white;
+  border-radius:5px;
+}
+#random:visited{
+  color:black;
+}
+#random:hover{
+  background-color:rgb(170, 57, 57);
+  color:white;
+  transition:background-color 0.5s;
+}
+ul{
+  list-style-type: none;
+  text-align: left;
+  font-family: "Bookman old style";
+  font-weight:bold;
+}
+ul li{
+  border-left: 5px solid teal;
+  border-radius: 11px;
+  background-color:silver;
+  margin: 18px;
+  padding: 15px;
+  animation: fadein 2s;
+  
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@keyframes slidedown {
+    from { max-height: 0; }
+    to   { max-height: 11111; }
+}
